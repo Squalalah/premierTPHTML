@@ -29,6 +29,7 @@ header {
 
 .img-right {
   border-radius: 50% 0% 0% 50%;
+  float:right;
 }
 
 .text-left {
