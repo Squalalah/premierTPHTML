@@ -1,0 +1,122 @@
+@font-face {
+  font-family: "Fonte Odibee";
+  src: url('fonts/Odibee.ttf');
+}
+
+body {
+  background-color: #21ABCD;
+}
+
+header {
+  margin: auto;
+}
+
+#div-left {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+#div-right {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.img-left {
+  border-radius: 0% 50% 50% 0%;
+}
+
+.img-right {
+  border-radius: 50% 0% 0% 50%;
+}
+
+.text-left {
+  margin:.5em;
+}
+
+.text-right {
+  margin:.5em;
+}
+
+
+.modules {
+  display: block;
+}
+
+#div-centered {
+  margin: 0 auto;
+  border: 1px solid;
+}
+
+#avatar {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  float:right;
+}
+
+#header-container {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+#flex-name-part {
+  width: 100%;
+}
+
+#flex-pic-part {
+  width:30%;
+}
+
+.pictures {
+  width: 256px;
+  height: 256px;
+}
+
+.category-color {
+  background-color: #CD4321;
+}
+
+#container {
+  box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.6);
+  border-radius: 5%;
+}
+
+#container {
+  background-color: #ffffff;
+  border-radius: 5%;
+  margin: auto;
+  max-width: 1024px;
+  text-align: center;
+}
+
+#category-border-bottom {
+  border-bottom-left-radius: 5%;
+  border-bottom-right-radius: 5%;
+}
+
+.h2-category {
+  margin: 0;
+  padding: 1em;
+  font-family: "Odibee Sans", serif;
+  font-size: 25px;
+  font-style: normal;
+}
+
+#contact-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  width: 3em;
+  height: 3em;
+  margin-left: 1em;
+}
+
+
+.fab:hover {
+  color: #7ECE90;
+}
